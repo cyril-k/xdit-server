@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "xdit-server"
+version = "0.1.0"
+description = ""
+authors = ["Your Name <you@example.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+torch = "2.4.0"
+xfuser = "0.3.2"
+transformers = "^4.45.1"
+diffusers = "^0.30.3"
+fastapi = {extras = ["standard"], version = "^0.115.4"}
+protobuf = "^5.28.3"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+ipykernel = "^6.29.5"
